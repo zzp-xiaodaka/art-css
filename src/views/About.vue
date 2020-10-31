@@ -1,5 +1,19 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+    <centered />
 </template>
+
+<script lang="ts">
+import { defineComponent } from 'vue';
+import centered from '@/components/centered.vue';
+
+export default defineComponent({
+    components: {
+        centered,
+    },
+    setup() {
+        return {};
+    },
+});
+</script>
+
+<style scoped></style>
